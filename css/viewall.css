@@ -1,0 +1,80 @@
+ .custom-table {
+     border-color: black;
+ }
+
+ .custom-table th,
+ .custom-table td {
+     border-color: black !important;
+     border-width: 1px !important;
+     text-align: center;
+ }
+
+ .custom-table tr {
+     height: 50px;
+ }
+
+ .boxed-container {
+     width: 1200px;
+     border: 2px solid #dedede;
+     padding: 20px;
+     margin-top: 20px;
+     border-radius: 5px;
+     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+ }
+
+ .main-btn {
+     display: inline-block;
+     font-family: var(--primary-font);
+     font-weight: 500;
+     font-size: 1rem;
+     line-height: 2.875rem;
+     text-align: center;
+     cursor: pointer;
+     text-transform: uppercase;
+     border-radius: 0.3125rem;
+     box-shadow: 0 0.625rem 1.875rem rgb(118 85 225 / 30%);
+     border: double 0.125rem transparent;
+     padding: 0 2.0625rem;
+     transition: all .3s ease-in-out;
+     --webkit-transition: all .3s ease-in-out;
+ }
+
+ .primary-btn {
+     width: 15%;
+     padding: 5px;
+     background-image: var(--gradient);
+     color: var(--text-white);
+     margin-top: -5px;
+ }
+
+ .primary-btn:hover {
+     border-color: var(--secondary-color);
+     background: var(--bg-white);
+     color: var(--secondary-text);
+     box-shadow: none;
+ }
+
+ :root {
+     --primary-color: #000000;
+     --secondary-color: #666666;
+     --bg-white: #fff;
+     --gradient: linear-gradient(to right, #080808 0%, #615f63 100%), radial-gradient(circle at top left, #010101, #7f7f81);
+     --primary-text: #e8e8e8;
+     --secondary-text: #040404;
+     --text-white: #fff;
+     --primary-font: 'Rubik', sans-serif;
+ }
+
+ .description-cell {
+     max-width: 50px;
+     overflow: hidden;
+     text-overflow: ellipsis;
+     white-space: nowrap;
+ }
+
+ .cell {
+     max-width: 50px;
+     overflow: hidden;
+     text-overflow: ellipsis;
+     white-space: nowrap;
+ }

@@ -1,0 +1,37 @@
+    .container {
+        max-width: 500px;
+        height: 580px;
+        background: #fcfcfc;
+        padding: 25px;
+        border-radius: 8px;
+        box-shadow: 0 10px 8px rgba(0, 0, 0, 0.1);
+        position: center;
+        color: rgb(0, 0, 0);
+        margin-top: 20px;
+    }
+
+    .form-control {
+        margin-bottom: 10px;
+    }
+
+    .icon-inside {
+        position: relative;
+    }
+
+    .form-icon {
+        position: absolute;
+        right: 10px;
+        top: calc(65% - 1px);
+        color: #ccc;
+    }
+
+    .btn-primary,
+    .btn-success,
+    .btn-secondary {
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    body {
+        background-color: rgb(203, 203, 203);
+    }

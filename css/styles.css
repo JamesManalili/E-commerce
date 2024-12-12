@@ -1,0 +1,11 @@
+.bg-banner-part {
+    background-color: #b4c2f0;
+}
+
+.panda-button {
+    background-image: linear-gradient(to bottom, #1d40ef 0%, #2202b0 100%);
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    padding: 9px 25px;
+}
